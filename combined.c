@@ -19,13 +19,19 @@ void main (void) {
   f = d + e;
   printf("The sum of %f and %f is %f\n", d, e, f);
 
-  float g;
-  g = 3;
+  a = 3;
 
-  if (g == 3) {
-    printf("g is equal to 3\n");
+  if (a == 3) {
+    printf("A is equal to 3\n");
   }
   else {
-    printf("g is not equal to 3\n");
+    printf("A is not equal to 3\n");
+  }
+
+  b = 1;
+
+  while (b <= 5) {
+    printf("B is equal to %d\n", b);
+    b++;
   }
 }

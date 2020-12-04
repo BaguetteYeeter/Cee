@@ -1,13 +1,10 @@
 #include <stdio.h>
 
 void main (void) {
-  float a;
-  a = 3;
+  int a = 1;
 
-  if (a == 3) {
-    printf("a is equal to 3\n");
-  }
-  else {
-    printf("a is not equal to 3\n");
+  while (a <= 5) {
+    printf("A is equal to %d\n", a);
+    a++;
   }
 }
