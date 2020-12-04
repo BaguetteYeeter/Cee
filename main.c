@@ -2,10 +2,12 @@
 
 void main (void) {
   float a;
-  float b = 3.141;
-  float c;
+  a = 3;
 
-  a = 1.413;
-  c = a + b;
-  printf("The sum of %f and %f is %f\n", a, b, c);
+  if (a == 3) {
+    printf("a is equal to 3\n");
+  }
+  else {
+    printf("a is not equal to 3\n");
+  }
 }
