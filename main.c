@@ -1,11 +1,11 @@
 #include <stdio.h>
 
 void main (void) {
-  int a;
-  int b = 3;
-  int c;
+  float a;
+  float b = 3.141;
+  float c;
 
-  a = 2;
+  a = 1.413;
   c = a + b;
-  printf("The sum of %d and %d is %d\n", a, b, c);
+  printf("The sum of %f and %f is %f\n", a, b, c);
 }
